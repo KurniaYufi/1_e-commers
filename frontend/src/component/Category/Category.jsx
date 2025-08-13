@@ -1,6 +1,5 @@
 import React from 'react'
 import '../../App.css';
-import Hero from '../Hero/Hero';
 import Image1 from '../../assets/Products/Image1.png';
 import Image2 from '../../assets/Products/Image2.png';
 import Image3 from '../../assets/Products/Image3.png';
@@ -59,7 +58,7 @@ const Category = () => {
                     <h1 className='text-2xl font-semibold mb-[2px]'>This</h1>
                     <h1 className='text-4xl xl:text-5xl font-bold opacity-20 mb-4'>Smart Watch</h1>
                     <button className='bg-white text-primary cursor-pointer hover:scale-105 duration-300 py-2 px-8 rounded-full relative z-10 w-[110px]'>Browse</button>
-                    <img src={Image3} alt="" className='w-[280px] absolute bottom-2 right-6 -rotate-4'/>
+                    <img src={Image3} alt="" className='w-[280px] absolute lg:bottom-2 lg:right-6 lg:-rotate-4 bottom-2 -right-6 -rotate-4'/>
                 </div>
             </div>
         </div>

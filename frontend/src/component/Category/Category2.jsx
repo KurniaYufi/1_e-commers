@@ -17,7 +17,7 @@ const Category = () => {
                     <h1 className='text-2xl font-semibold mb-[2px]'>This</h1>
                     <h1 className='text-4xl xl:text-5xl font-bold opacity-20 mb-4'>AirPods</h1>
                     <button className='bg-primary text-white cursor-pointer hover:scale-105 duration-300 py-2 px-8 rounded-full relative z-10 w-[110px]'>Browse</button>
-                    <img src={Image4} alt="" className='w-[280px] absolute bottom-2 right-6 -rotate-2'/>
+                    <img src={Image4} alt="" className='w-[280px] absolute lg:bottom-2 lg:right-6 lg:-rotate-4 bottom-2 -right-6 -rotate-4'/>
                 </div>
             </div>
             <div className='py-10 pl-5 bg-gradient-to-br from-brandYellow to-brandYellow/70 text-white rounded-3xl relative h-[320px] flex items-end'>
@@ -35,7 +35,7 @@ const Category = () => {
                     <h1 className='text-2xl font-semibold mb-[2px]'>This</h1>
                     <h1 className='text-4xl xl:text-5xl font-bold opacity-20 mb-4'>Ipad</h1>
                     <button className='bg-white text-sky-300 cursor-pointer hover:scale-105 duration-300 py-2 px-8 rounded-full relative z-10 w-[110px]'>Browse</button>
-                    <img src={Image6} alt="" className='w-[230px] absolute bottom-2 -right-6 -rotate-4'/>
+                    <img src={Image6} alt="" className='w-[230px] absolute bottom-2 -right-2 -rotate-2'/>
                 </div>
             </div>
         </div>
