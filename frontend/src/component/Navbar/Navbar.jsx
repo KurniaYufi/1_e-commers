@@ -28,8 +28,8 @@ const Navbar = () => {
             <div className='flex items-center gap-4'>
               <a
                 href='/'
-                className='text-primary font-semibold tracking-widest text-2xl uppercase sm:text-3xl'>
-                T-SHOP
+                className='text-primary font-semibold text-2xl sm:text-3xl'>
+                iBox
               </a>
 
               {/* Menu Item */}

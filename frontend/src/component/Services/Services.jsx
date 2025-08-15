@@ -12,7 +12,7 @@ const Serrvice = () => {
         <div className='grid grid-cols-2 lg:grid-cols-4 gap-8'>
           <div className='flex flex-col items-center justify-center'>
             <FaCarSide className='text-4xl lg:text-5xl text-primary mb-4' />
-            <h2 className='text-xl font-semibold mb-2 font-semibold'>Free Shipping</h2>
+            <h2 className='text-xl font-semibold mb-2'>Free Shipping</h2>
             <p className='text-gray-600 text-center text-sm '>On all orders over $50</p>
           </div>
 

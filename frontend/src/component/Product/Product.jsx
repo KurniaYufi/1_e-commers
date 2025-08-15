@@ -4,6 +4,10 @@ import Iphone1 from "../../assets/products/Iphone1.png";
 import Iphone2 from "../../assets/products/Iphone2.png";
 import Iphone3 from "../../assets/products/Iphone3.png";
 import Iphone4 from "../../assets/products/Iphone4.png";
+import Iphone5 from "../../assets/products/Iphone5.png";
+import Iphone6 from "../../assets/products/Iphone6.png";
+import Iphone7 from "../../assets/products/Iphone7.png";
+import Iphone8 from "../../assets/products/Iphone8.png";
 
 const Product = () => {
   const products = [
@@ -31,6 +35,30 @@ const Product = () => {
       price: 399,
       rating: 3,
     },
+    {
+      imgSrc: Iphone5,
+      title: "iPhone SE",
+      price: 399,
+      rating: 3,
+    },
+    {
+      imgSrc: Iphone6,
+      title: "iPhone SE",
+      price: 399,
+      rating: 3,
+    },
+    {
+      imgSrc: Iphone7,
+      title: "iPhone SE",
+      price: 399,
+      rating: 3,
+    },
+    {
+      imgSrc: Iphone8,
+      title: "iPhone SE",
+      price: 399,
+      rating: 3,
+    },
   ];
 
   return (
@@ -41,11 +69,6 @@ const Product = () => {
             <h1 className='text-sm text-gray-500'>Explre Our Product</h1>
         </div>
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8 place-items-center my-8">
-          {products.map((product, index) => (
-            <ProductCard key={index} {...product} />
-          ))}
-        </div>
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8 place-items-center">
           {products.map((product, index) => (
             <ProductCard key={index} {...product} />
           ))}
