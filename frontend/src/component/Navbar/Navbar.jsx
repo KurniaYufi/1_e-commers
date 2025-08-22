@@ -21,14 +21,14 @@ const DropdownLinks = [
 const Navbar = () => {
   return (
     <nav>
-      <div className='bg-white dark:bg-gray-900 dark:text-white duration-200 relative z-40'>
+      <div className='bg-white duration-200 relative z-40'>
         <div className='py-4'>
           <div className='container flex justify-between items-center'>
             {/* Logo dan Menu */}
             <div className='flex items-center gap-4'>
               <a
                 href='/'
-                className='text-primary font-semibold text-2xl sm:text-3xl'>
+                className='text-primary font-bold text-2xl sm:text-3xl'>
                 iBox
               </a>
 
@@ -39,28 +39,28 @@ const Navbar = () => {
                     <li key={link.id}>
                       <a
                         href={link.link}
-                        className='px-4 font-semibold text-gray-500 hover:text-black dark:hover:text-white duration-200'>
+                        className='px-4 font-semibold text-gray-500 hover:text-black duration-200'>
                         {link.name}
                       </a>
                     </li>
                   ))}
                   {/* Dropdown */}
                   <li className='relative group cursor-pointer'>
-                    <a href="" className='flex items-center px-4 font-semibold text-gray-500 hover:text-black dark:hover:text-white duration-200'>
+                    <a href="" className='flex items-center px-4 font-semibold text-gray-500 hover:text-black  duration-200'>
                       Quick Links
                       <span>
                         <MdArrowDropDown className='group-hover:rotate-180 transition-all duration-300 
-                        text-3xl text-gray-500 hover:text-black dark:hover:text-white'/>
+                        text-3xl text-gray-500 hover:text-black '/>
                     </span>
                     </a>
                     {/* Dropdown Links */}
                     <div>
-                      <ul className='space-y-2 absolute z-[9999] hidden group-hover:block w-[200px] bg-white dark:bg-gray-900 shadow-md rounded-md p-2'>
+                      <ul className='space-y-2 absolute z-[9999] hidden group-hover:block w-[200px] bg-white shadow-md rounded-md p-2'>
                         {DropdownLinks.map((dropdownLink) => (
                           <li key={dropdownLink.id}>
                             <a
                               href={dropdownLink.link}
-                              className='block p-2 text-gray-500 dark:hover:text-white duration-200 hover:bg-primary/20 rounded-md'>
+                              className='block p-2 text-gray-500 duration-200 hover:bg-primary/20 rounded-md'>
                               {dropdownLink.name}
                             </a>
                           </li>
@@ -81,12 +81,12 @@ const Navbar = () => {
                   placeholder='Search'
                   className='search-bar'
                 />
-                <IoMdSearch className='text-xl text-gray-600 group-hover:text-primary duration-300 dark:text-gray-400 absolute top-1/2 -translate-y-1/2 right-3' />
+                <IoMdSearch className='text-xl text-gray-600 group-hover:text-primary duration-300 absolute top-1/2 -translate-y-1/2 right-3' />
               </div>
 
               {/* order button section */}
               <button className='relative p-3'>
-                <FaShoppingCart className='text-xl text-gray-600 hover:text-primary dark:hover:text-white duration-200' />
+                <FaShoppingCart className='text-xl text-gray-600 hover:text-primary duration-200' />
                 <div className='absolute w-4 h-4 bg-primary rounded-full text-white items-center top-0 right-0 flex justify-center text-xs'>
                   4
                 </div>
@@ -94,7 +94,7 @@ const Navbar = () => {
 
               {/* Acc */}
               <div>
-                <MdAccountCircle className='text-gray-600 text-2xl cursor-pointer dark:hover:text-white duration-200'/>
+                <MdAccountCircle className='text-gray-600 text-2xl cursor-pointer duration-200'/>
               </div>
             </div>
           </div>

@@ -1,5 +1,5 @@
 // App.jsx
-import React from "react";
+import React, { useEffect } from "react";
 import Navbar from "./component/navbar/navbar";
 import Hero from "./component/Hero/Hero";
 import Category from "./component/Category/Category";
@@ -10,6 +10,8 @@ import Product from "./component/Product/Product";
 import News from "./component/Blog/Blog";
 import Partner from "./component/Partner/Partner";
 import Footer from "./component/Footer/Footer";
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 import Macbook from './assets/products/Image2.png';
 import Headphone from './assets/products/Image7.png';
@@ -41,12 +43,25 @@ const BannerData2 = {
 };
 
 function App() {
+  // Init AOS sekali di root
+  useEffect(() => {
+    AOS.init({
+    duration: 800,
+    offset: 50,
+    easing: "ease-in-sine",
+    once: false,
+    mirror: true,
+    delay: 100,
+  });
+  AOS.refresh();
+  }, []);
+
   return (
-    <div className="App">
+    <div className="bg-white overflow-hidden">
       <Navbar />
       <Hero />
       <Category />
-      <Category2/>
+      <Category2 />
       <Services />
       <Banner {...BannerData1} />
       <Product />

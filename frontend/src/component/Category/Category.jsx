@@ -4,30 +4,6 @@ import Image1 from '../../assets/Products/Image1.png';
 import Image2 from '../../assets/Products/Image2.png';
 import Image3 from '../../assets/Products/Image3.png';
 
-const CategoryData = [
-  { 
-      id: 1, 
-      img: Image1,
-      capt1: 'Enjoy',
-      capt2: 'With',
-      name: 'Iphone',
-    },
-    { 
-      id: 2, 
-      img: Image2,
-      capt1: 'Enjoy',
-      capt2: 'With',
-      name: 'Macbook',
-    },
-    { 
-      id: 3, 
-      img: Image3,
-      capt1: 'Enjoy',
-      capt2: 'With',
-      name: 'Watch',
-    }
-  ];
-
 const Category = () => {
   return (
     <div className='pt-8'>
@@ -40,7 +16,13 @@ const Category = () => {
                     <h1 className='text-2xl font-semibold mb-[2px]'>This</h1>
                     <h1 className='text-4xl xl:text-5xl font-bold opacity-20 mb-4'>Iphone</h1>
                     <button className='bg-white text-fuchsia-300 cursor-pointer hover:scale-105 duration-300 py-2 px-8 rounded-full relative z-10 w-[110px]'>Browse</button>
-                    <img src={Image1} alt="" className='w-[240px] absolute bottom-2 -right-6 -rotate-4'/>
+                    <img 
+                      src={Image1} 
+                      alt="" 
+                      className='w-[240px] absolute bottom-2 -right-6 -rotate-4'
+                      data-aos="zoom-in"
+                      data-aos-delay="0"
+                    />
                 </div>
             </div>
             <div className='py-10 pl-5 bg-gradient-to-br from-black/90 to-black/70 text-white rounded-3xl relative h-[320px] flex items-end'>
@@ -49,7 +31,13 @@ const Category = () => {
                     <h1 className='text-2xl font-semibold mb-[2px]'>This</h1>
                     <h1 className='text-4xl xl:text-5xl font-bold opacity-20 mb-4'>Macbook</h1>
                     <button className='bg-primary text-white cursor-pointer hover:scale-105 duration-300 py-2 px-8 rounded-full relative z-10 w-[110px]'>Browse</button>
-                    <img src={Image2} alt="" className='w-[230px] absolute bottom-2 -right-6 -rotate-4'/>
+                    <img 
+                      src={Image2} 
+                      alt="" 
+                      className='w-[230px] absolute bottom-2 -right-6 -rotate-4'
+                      data-aos="zoom-in"
+                      data-aos-delay="200"
+                    />
                 </div>
             </div>
             <div className='sm:col-span-2 py-10 pl-5 bg-gradient-to-br from-primary to-primary/90 text-white rounded-3xl relative h-[320px] flex items-end'>
@@ -58,7 +46,13 @@ const Category = () => {
                     <h1 className='text-2xl font-semibold mb-[2px]'>This</h1>
                     <h1 className='text-4xl xl:text-5xl font-bold opacity-20 mb-4'>Smart Watch</h1>
                     <button className='bg-white text-primary cursor-pointer hover:scale-105 duration-300 py-2 px-8 rounded-full relative z-10 w-[110px]'>Browse</button>
-                    <img src={Image3} alt="" className='w-[280px] absolute lg:bottom-2 lg:right-6 lg:-rotate-4 bottom-2 -right-6 -rotate-4'/>
+                    <img 
+                      src={Image3} 
+                      alt="" 
+                      className='w-[280px] absolute lg:bottom-2 lg:right-6 lg:-rotate-4 bottom-2 -right-6 -rotate-4'
+                      data-aos="zoom-in"
+                      data-aos-delay="400"
+                    />
                 </div>
             </div>
         </div>
