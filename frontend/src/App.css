@@ -21,8 +21,5 @@
           border border-transparent 
           group-hover:border-gray-500 
           px-3 py-1 
-          focus:outline-none 
-          dark:border-gray-800 
-          dark:bg-gray-900 
-          group-hover:dark:bg-gray-800;
+          focus:outline-none;
 }
