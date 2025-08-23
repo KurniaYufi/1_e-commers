@@ -1,6 +1,6 @@
 // App.jsx
 import React, { useEffect } from "react";
-import Navbar from "./component/navbar/navbar";
+import Navbar from "./component/Navbar/Navbar";
 import Hero from "./component/Hero/Hero";
 import Category from "./component/Category/Category";
 import Category2 from "./component/Category/Category2";

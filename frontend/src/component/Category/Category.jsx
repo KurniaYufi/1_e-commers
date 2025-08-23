@@ -18,7 +18,7 @@ const Category = () => {
                     <button className='bg-white text-fuchsia-300 cursor-pointer hover:scale-105 duration-300 py-2 px-8 rounded-full relative z-10 w-[110px]'>Browse</button>
                     <img 
                       src={Image1} 
-                      alt="" 
+                      alt="test"
                       className='w-[240px] absolute bottom-2 -right-6 -rotate-4'
                       data-aos="zoom-in"
                       data-aos-delay="0"
