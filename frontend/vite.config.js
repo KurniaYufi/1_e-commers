@@ -7,5 +7,5 @@ export default defineConfig({
   plugins: [
     tailwindcss(),
     react()],
-  base: proccess.env.VITE_BASE_PATH || "/1_e-commers",
+  base: process.env.VITE_BASE_PATH || "/1_e-commers",
 });
