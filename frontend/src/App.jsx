@@ -13,8 +13,8 @@ import Footer from "./component/Footer/Footer";
 import AOS from "aos";
 import "aos/dist/aos.css";
 
-import Macbook from './assets/products/Image2.png';
-import Headphone from './assets/products/Image7.png';
+import Macbook from './assets/Products/Image2.png';
+import Headphone from './assets/Products/Image7.png';
 
 const BannerData1 = {
   discount: "30% OFF",
