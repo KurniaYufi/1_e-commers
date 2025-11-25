@@ -1,13 +1,13 @@
 import React from "react";
 import ProductCard from "../../component/ProductCard/ProductCard";
-import Iphone1 from "../../assets/products/Iphone1.png";
-import Iphone2 from "../../assets/products/Iphone2.png";
-import Iphone3 from "../../assets/products/Iphone3.png";
-import Iphone4 from "../../assets/products/Iphone4.png";
-import Iphone5 from "../../assets/products/Iphone5.png";
-import Iphone6 from "../../assets/products/Iphone6.png";
-import Iphone7 from "../../assets/products/Iphone7.png";
-import Iphone8 from "../../assets/products/Iphone8.png";
+import Iphone1 from "../../assets/Products/Iphone1.png";
+import Iphone2 from "../../assets/Products/Iphone2.png";
+import Iphone3 from "../../assets/Products/Iphone3.png";
+import Iphone4 from "../../assets/Products/Iphone4.png";
+import Iphone5 from "../../assets/Products/Iphone5.png";
+import Iphone6 from "../../assets/Products/Iphone6.png";
+import Iphone7 from "../../assets/Products/Iphone7.png";
+import Iphone8 from "../../assets/Products/Iphone8.png";
 
 const Product = () => {
   const products = [
